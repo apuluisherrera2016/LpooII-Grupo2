@@ -3,9 +3,18 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MenuVendedor" Height="300" Width="300">
     <Grid>
-        <Menu Margin="0,0,0,236">
-            <MenuItem Header="_Clientes"></MenuItem>
-            <MenuItem Header="_Ticket"></MenuItem>
+        <Menu Margin="0,0,0,236" Foreground="#FF16AA16" FontSize="14" FontFamily="Showcard Gothic" Background="Black">
+            <MenuItem Header="_Clientes">
+                <MenuItem Header="_Agregar Clientes"></MenuItem>
+                <MenuItem Header="_Modificar Clientes"></MenuItem>
+                <MenuItem Header="_Eliminar Cliente"></MenuItem>
+            </MenuItem>
+            
+            <MenuItem Header="_Ticket">
+                <MenuItem Header="_Agregar Ticket"></MenuItem>
+                <MenuItem Header="_Modificar Ticket"></MenuItem>
+                <MenuItem Header="_Eliminar Ticket"></MenuItem>
+            </MenuItem>
         </Menu>
     </Grid>
 </Window>

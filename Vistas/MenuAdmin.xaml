@@ -1,16 +1,20 @@
 ﻿<Window x:Class="Vistas.Window1"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Main Admin" Height="300" Width="400">
+        Title="Main Admin" Height="300" Width="400" Background="#FFCEF5C3">
     <Grid>
-        <Menu Margin="0,0,0,237">
+        <Menu Margin="0,0,0,237" FontFamily="Showcard Gothic" FontSize="14" Background="#FF8ACE6C">
             <MenuItem Header="_Usuarios">
                 <MenuItem Header="_Agregar Usuarios"></MenuItem>
                 <MenuItem Header="_Modificar Usuario"></MenuItem>
                 <MenuItem Header="_Eliminar Usuario"></MenuItem>
             </MenuItem>
             
-            <MenuItem Header="_Peliculas"></MenuItem>
+            <MenuItem Header="_Peliculas">
+                <MenuItem Header="_Agregar Peliculas"></MenuItem>
+                <MenuItem Header="_Modificar Peliculas"></MenuItem>
+                <MenuItem Header="_Eliminar Pelicula"></MenuItem>
+            </MenuItem>
             <MenuItem Header="_Butacas"></MenuItem>
             <MenuItem Header="_Proyecciones"></MenuItem>
 
