@@ -3,17 +3,16 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MenuVendedor" Height="300" Width="300">
     <Grid>
-        <Menu Margin="0,0,0,236" Foreground="#FF16AA16" FontSize="14" FontFamily="Showcard Gothic" Background="Black">
-            <MenuItem Header="_Clientes">
-                <MenuItem Header="_Agregar Clientes"></MenuItem>
-                <MenuItem Header="_Modificar Clientes"></MenuItem>
-                <MenuItem Header="_Eliminar Cliente"></MenuItem>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Vistas;component/Images/descarga%20%283%29.jpg" />
+        </Grid.Background>
+        <Menu Margin="0,0,0,236" Foreground="Black" FontSize="14" FontFamily="Showcard Gothic" Background="#FFE2D9D9">
+            <MenuItem Header="_Clientes"  Name="mainCliente" Click="mainCliente_Click">
+                
             </MenuItem>
             
-            <MenuItem Header="_Ticket">
-                <MenuItem Header="_Agregar Ticket"></MenuItem>
-                <MenuItem Header="_Modificar Ticket"></MenuItem>
-                <MenuItem Header="_Eliminar Ticket"></MenuItem>
+            <MenuItem Header="_Ticket" Name="menuBtnTicket" Click="menuBtnTicket_Click">
+                
             </MenuItem>
         </Menu>
     </Grid>

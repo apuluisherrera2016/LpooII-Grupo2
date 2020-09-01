@@ -13,3 +13,15 @@ C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.Properties.Res
 C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
 C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.exe
 C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.pdb
+C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Butacas.baml
+C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Clientes.baml
+C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Peliculas.baml
+C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Proyecciones.baml
+C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Tickets.baml
+C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Usuarios.baml
+C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Butacas.g.cs
+C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Clientes.g.cs
+C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Peliculas.g.cs
+C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Proyecciones.g.cs
+C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Tickets.g.cs
+C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Usuarios.g.cs

@@ -22,5 +22,19 @@ namespace Vistas
         {
             InitializeComponent();
         }
+
+        private void mainCliente_Click(object sender, RoutedEventArgs e)
+        {
+            Clientes vClientes = new Clientes();
+            vClientes.Show();
+            this.Close();
+        }
+
+        private void menuBtnTicket_Click(object sender, RoutedEventArgs e)
+        {
+            Tickets wTicket = new Tickets();
+            wTicket.Show();
+            this.Close();
+        }
     }
 }
