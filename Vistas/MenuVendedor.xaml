@@ -1,0 +1,10 @@
+﻿<Window x:Class="Vistas.MenuVendedor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MenuVendedor" Height="300" Width="300">
+    <Grid>
+        <Menu IsMainMenu="True" VerticalAlignment="Top" Height="36" Background="#FFEFD9D9" BorderBrush="#FFB9DEB9" />
+        <MenuItem Header="_Clientes" Margin="0,0,147,225" FontStyle="Normal"></MenuItem>
+        <MenuItem Header="_Ticket" Margin="0,-1,52,225" HorizontalAlignment="Right" Width="124"> </MenuItem>
+    </Grid>
+</Window>
