@@ -4,7 +4,7 @@
         Title="MenuVendedor" Height="300" Width="300">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/Vistas;component/Images/descarga%20%283%29.jpg" />
+            <ImageBrush ImageSource="/Vistas;component/Images/descarga%20%284%29.jpg" />
         </Grid.Background>
         <Menu Margin="0,0,0,236" Foreground="Black" FontSize="14" FontFamily="Showcard Gothic" Background="#FFE2D9D9">
             <MenuItem Header="_Clientes"  Name="mainCliente" Click="mainCliente_Click">

@@ -1,9 +1,7 @@
 C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\bin\Debug\Vistas.exe
 C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\bin\Debug\Vistas.pdb
-C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\MainWindow.baml
 C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuAdmin.baml
 C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuVendedor.baml
-C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\MainWindow.g.cs
 C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuAdmin.g.cs
 C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuVendedor.g.cs
 C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\App.g.cs
@@ -25,3 +23,5 @@ C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Peliculas.g.cs
 C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Proyecciones.g.cs
 C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Tickets.g.cs
 C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Usuarios.g.cs
+C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Login.baml
+C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Login.g.cs

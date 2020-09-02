@@ -16,12 +16,14 @@ namespace Vistas
     /// <summary>
     /// Lógica de interacción para Window1.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class MenuAdmin : Window
     {
-        public Window1()
+        public MenuAdmin()
         {
             InitializeComponent();
         }
+
+        
 
        
     }
