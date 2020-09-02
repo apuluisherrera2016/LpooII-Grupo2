@@ -10,7 +10,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using 
+
 
 
 namespace Vistas
@@ -23,16 +23,28 @@ namespace Vistas
         public login()
         {
             InitializeComponent();
+
+           
         }
 
         private void btnEntrar_Click(object sender, RoutedEventArgs e)
         {
-            if (txtUsuario.Text == )
+           
+
+
+            if (txtUsuario.Text == "admin" )
+            {
+                MiMenu menuAdmin = new MiMenu();
+                menuAdmin.Show();
+                this.Close();
+            }
+
+                
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            Usuario usuario = new Usuario();
+           
             
         }
 

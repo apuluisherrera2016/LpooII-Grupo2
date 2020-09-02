@@ -11,3 +11,5 @@ C:\Users\luisg\OneDrive\Documentos\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.Pro
 C:\Users\luisg\OneDrive\Documentos\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
 C:\Users\luisg\OneDrive\Documentos\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.exe
 C:\Users\luisg\OneDrive\Documentos\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.pdb
+C:\Users\luisg\OneDrive\Documentos\LpooII-Grupo2\Vistas\obj\x86\Debug\MiMenu.baml
+C:\Users\luisg\OneDrive\Documentos\LpooII-Grupo2\Vistas\obj\x86\Debug\MiMenu.g.cs
