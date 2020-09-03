@@ -58,7 +58,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="login.xaml">
+    <Compile Include="Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
+    <Page Include="login1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -70,14 +73,18 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="login.xaml.cs">
-      <DependentUpon>login.xaml</DependentUpon>
+    <Compile Include="login1.xaml.cs">
+      <DependentUpon>login1.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Page Include="MiMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -114,6 +121,75 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="images\uni2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cine.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\prueba2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\prueba3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\prueba4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\prueba5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\prueba6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\prueba7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\prueba8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\menuu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\prueba9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\prueba10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\preuba11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\prueba12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\prueba13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\prueba 14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\prueba15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\prueba16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\prueba17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\prueba19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClasesBase\ClasesBase.csproj">
+      <Project>{06B5D334-C5D2-4747-82ED-D364119A5D9A}</Project>
+      <Name>ClasesBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\CIME OPERA.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
