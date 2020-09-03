@@ -1,12 +1,12 @@
 ﻿<Window x:Class="Vistas.MenuVendedor"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MenuVendedor" Height="300" Width="300">
+        Title="MenuVendedor" Height="300" Width="300" Foreground="#FFF2ECEC">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="/Vistas;component/Images/descarga%20%284%29.jpg" />
         </Grid.Background>
-        <Menu Margin="0,0,0,236" Foreground="Black" FontSize="14" FontFamily="Showcard Gothic" Background="#FFE2D9D9">
+        <Menu Margin="0,0,0,236" Foreground="#FFFFF5F5" FontSize="14" FontFamily="Showcard Gothic" Background="#FF030303">
             <MenuItem Header="_Clientes"  Name="mainCliente" Click="mainCliente_Click">
                 
             </MenuItem>

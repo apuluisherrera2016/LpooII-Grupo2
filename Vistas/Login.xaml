@@ -7,10 +7,10 @@
             <ImageBrush ImageSource="/Vistas;component/Images/descarga%20%282%29.jpg" />
         </Grid.Background>
         <TextBox Height="23" Name="txtUser" Width="120" Margin="0,54,76,234" HorizontalAlignment="Right" />
-            <Label Content="Usuario" Height="37" Name="label1" Margin="12,50,202,224" />
-        <Label Content="Contraseña" Height="28" HorizontalAlignment="Left" Margin="12,101,0,0" Name="label2" VerticalAlignment="Top" />
-        <Button Content="Aceptar" Height="23" HorizontalAlignment="Left" Margin="107,170,0,0" Name="btnAceptar" VerticalAlignment="Top" Width="120" FontFamily="Showcard Gothic" Background="White" BorderThickness="3" Click="btnAceptar_Click" />
-        <Button Content="Salir"  Height="23" HorizontalAlignment="Left" Margin="107,227,0,0" Name="btnSalir" VerticalAlignment="Top" Width="120" FontFamily="Showcard Gothic" Background="White" BorderThickness="3" />
+            <Label Content="Usuario" Height="37" Name="label1" Margin="12,50,202,224" FontFamily="Showcard Gothic" FontSize="14" />
+        <Label Content="Contraseña" Height="28" HorizontalAlignment="Left" Margin="12,101,0,0" Name="label2" VerticalAlignment="Top" FontFamily="Showcard Gothic" FontSize="14" />
+        <Button Content="Aceptar" Height="23" HorizontalAlignment="Left" Margin="107,170,0,0" Name="btnAceptar" VerticalAlignment="Top" Width="120" FontFamily="Showcard Gothic" Background="Black" BorderThickness="3" Click="btnAceptar_Click" Foreground="#FFF2ECEC" />
+        <Button Content="Salir"  Height="23" HorizontalAlignment="Left" Margin="107,227,0,0" Name="btnSalir" VerticalAlignment="Top" Width="120" FontFamily="Showcard Gothic" Background="#FF0D0C0C" BorderThickness="3" Foreground="#FFE5D9D9" FontSize="14" />
         <Label Content="Login" Height="26" HorizontalAlignment="Left" Margin="107,12,0,0" Name="label3" VerticalAlignment="Top" Width="120" FontFamily="Showcard Gothic" FontSize="16" />
         <PasswordBox Height="23" PasswordChar="@" HorizontalAlignment="Left" Margin="107,101,0,0" Name="passwordBox" VerticalAlignment="Top" Width="120" />
     </Grid>

@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Menu Admin" Height="300" Width="500">
     <Grid>
-        <Menu Margin="0,0,0,230" FontFamily="Showcard Gothic" FontSize="14" Background="#FFD1D1D1">
+        <Menu Margin="0,0,0,230" FontFamily="Showcard Gothic" FontSize="14" Background="#FF101010" Foreground="White">
             <MenuItem Header="_Usuarios">
                 <MenuItem.Icon>
                     <Image Source="/Vistas;component/Images/users.jpg" Height="Auto" Width="Auto"></Image>

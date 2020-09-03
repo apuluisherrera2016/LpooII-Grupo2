@@ -25,3 +25,5 @@ C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Tickets.g.cs
 C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Usuarios.g.cs
 C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Login.baml
 C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Login.g.cs
+C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\bin\Debug\ClasesBase.dll
+C:\Users\RENE\Documents\LpooII-Grupo2\Vistas\bin\Debug\ClasesBase.pdb
