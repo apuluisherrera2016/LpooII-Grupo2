@@ -3,8 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="ABMClientes" Height="439" Width="360" Background="{x:Null}">
     <Grid>
-        <Border BorderBrush="#FF010110" BorderThickness="7" Height="376" HorizontalAlignment="Center" Name="border1" VerticalAlignment="Top" Width="326" Margin="0,12,0,0" CornerRadius="20" Background="#FF3399FF">
+        <Border BorderBrush="#FF010110" BorderThickness="7" Height="376" HorizontalAlignment="Center" Name="border1" VerticalAlignment="Top" Width="326" Margin="0,12,0,0" CornerRadius="20" Background="#FFF4F4F4">
             <StackPanel Height="357" Name="stackPanel1" Width="280">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="/Vistas;component/Images/descarga%20%282%29.jpg" />
+                </StackPanel.Background>
                 <TextBlock Height="23" Name="textBlock1" Text="CLIENTE" TextAlignment="Center" FontWeight="Bold" FontSize="20" FontFamily="Eras ITC" FontStyle="Normal" />
                 <Label Content="DNI" Height="28" Name="label1" Width="271" FontWeight="Bold" Foreground="Black" />
                 <TextBox Height="23" Name="txtDNI" Width="246" />
