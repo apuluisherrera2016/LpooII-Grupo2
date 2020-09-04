@@ -32,4 +32,11 @@ C:\Users\Luis\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Window1.baml
 C:\Users\Luis\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Window1.g.cs
 C:\Users\Luis\Documents\LpooII-Grupo2\Vistas\bin\Debug\ClasesBase.dll
 C:\Users\Luis\Documents\LpooII-Grupo2\Vistas\bin\Debug\ClasesBase.pdb
-C:\Users\Luis\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.csprojAssemblyReference.cache
+C:\Users\Luis\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\prueba.g.cs
+C:\Users\Luis\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas_MarkupCompile.lref
+C:\Users\Luis\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\prueba.baml
+C:\Users\Luis\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.csproj.CopyComplete
+C:\Users\Luis\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuPelicula.g.cs
+C:\Users\Luis\Documents\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuPelicula.baml

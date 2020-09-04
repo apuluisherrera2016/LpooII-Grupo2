@@ -5,6 +5,7 @@ C:\Users\luisg\OneDrive\Documentos\LpooII-Grupo2\ClasesBase\obj\Debug\ClasesBase
 C:\Users\luisg\OneDrive\Documentos\LpooII-Grupo2\ClasesBase\obj\Debug\ClasesBase.pdb
 C:\Users\Luis\Documents\LpooII-Grupo2\ClasesBase\bin\Debug\ClasesBase.dll
 C:\Users\Luis\Documents\LpooII-Grupo2\ClasesBase\bin\Debug\ClasesBase.pdb
-C:\Users\Luis\Documents\LpooII-Grupo2\ClasesBase\obj\Debug\ClasesBase.csprojResolveAssemblyReference.cache
 C:\Users\Luis\Documents\LpooII-Grupo2\ClasesBase\obj\Debug\ClasesBase.dll
 C:\Users\Luis\Documents\LpooII-Grupo2\ClasesBase\obj\Debug\ClasesBase.pdb
+C:\Users\Luis\Documents\LpooII-Grupo2\ClasesBase\obj\Debug\ClasesBase.csprojAssemblyReference.cache
+C:\Users\Luis\Documents\LpooII-Grupo2\ClasesBase\obj\Debug\ClasesBase.csproj.CoreCompileInputs.cache

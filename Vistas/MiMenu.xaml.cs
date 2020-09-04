@@ -27,5 +27,12 @@ namespace Vistas
         {
 
         }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            Pelicula oPelicula = new Pelicula();
+            oPelicula.Show();
+            this.Close();
+        }
     }
 }
