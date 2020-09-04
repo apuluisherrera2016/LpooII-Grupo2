@@ -55,76 +55,27 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Butacas.xaml.cs">
-      <DependentUpon>Butacas.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Clientes.xaml.cs">
-      <DependentUpon>Clientes.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MenuAdmin.xaml.cs">
-      <DependentUpon>MenuAdmin.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Peliculas.xaml.cs">
-      <DependentUpon>Peliculas.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Proyecciones.xaml.cs">
-      <DependentUpon>Proyecciones.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Tickets.xaml.cs">
-      <DependentUpon>Tickets.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Usuarios.xaml.cs">
-      <DependentUpon>Usuarios.xaml</DependentUpon>
-    </Compile>
-    <Page Include="Butacas.xaml">
+    <Page Include="ABMClientes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Clientes.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Login.xaml">
+    <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="ABMClientes.xaml.cs">
+      <DependentUpon>ABMClientes.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Login.xaml.cs">
-      <DependentUpon>Login.xaml</DependentUpon>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="MenuAdmin.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="MenuVendedor.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Peliculas.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Proyecciones.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Tickets.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Usuarios.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MenuVendedor.xaml.cs">
-      <DependentUpon>MenuVendedor.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -149,28 +100,13 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\descarga %283%29.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\descarga %282%29.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\users.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\descarga %284%29.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\images.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\images %283%29.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\ClasesBase\ClasesBase.csproj">
       <Project>{06B5D334-C5D2-4747-82ED-D364119A5D9A}</Project>
       <Name>ClasesBase</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\descarga %282%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
