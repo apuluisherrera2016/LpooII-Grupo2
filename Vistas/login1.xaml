@@ -24,8 +24,8 @@
                 <Label Content="Usuario" FontSize="20" Foreground="white" />
                 <TextBox Name="txtUsuario" Background="Transparent"  Foreground="white" FontSize="18"/>
                 <Label Content="Contraseña" FontSize="20" Foreground="white" />
-                <TextBox Name="txtContraseña" Background="Transparent"   Foreground="white" FontSize="18"/>
-
+                
+                <PasswordBox Name="txtContraseña" Background="Transparent"   Foreground="white" FontSize="18"/>
                 <Border >
                     <StackPanel Margin="10" >
                         <Button Name="btnEntrar" BorderBrush="#3C74B5" Content="Entrar" Margin="60 10" Background="Transparent" Foreground="white" FontSize="18" Click="btnEntrar_Click" />

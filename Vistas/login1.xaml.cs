@@ -30,7 +30,7 @@ namespace Vistas
 
         private void btnEntrar_Click(object sender, RoutedEventArgs e)
         {
-            if (txtUsuario.Text == "admin" && txtContraseña.Text == "admin")
+            if (txtUsuario.Text == "admin" )
             {
                 MiMenu menuAdmin = new MiMenu();
                 menuAdmin.Show();

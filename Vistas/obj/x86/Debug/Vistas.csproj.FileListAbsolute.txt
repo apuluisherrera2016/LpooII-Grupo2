@@ -47,11 +47,9 @@ C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\bin\Debug\ClasesBase.pdb
 C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.csprojAssemblyReference.cache
 C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\login1.baml
 C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\MainWindow.baml
-C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\MiMenu.baml
 C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\Window1.baml
 C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\login1.g.cs
 C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\MainWindow.g.cs
-C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\MiMenu.g.cs
 C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuPelicula.g.cs
 C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\prueba.g.cs
 C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\Window1.g.cs
@@ -67,3 +65,9 @@ C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.csproj.Core
 C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.csproj.CopyComplete
 C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.exe
 C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.pdb
+C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\Principal.baml
+C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuButaca.g.cs
+C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuProyecciones.g.cs
+C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\Principal.g.cs
+C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuButaca.baml
+C:\Users\Luis\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuProyecciones.baml
