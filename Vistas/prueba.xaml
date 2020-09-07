@@ -5,12 +5,39 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vistas"
         mc:Ignorable="d"
-        Title="prueba" Height="450" Width="800">
-    <Grid Margin="0,0,0,-57">
+        Title="prueba" Height="442.021" Width="447.34">
+    <Grid Margin="0,0,2,4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="499*"/>
+            <ColumnDefinition Width="28*"/>
+        </Grid.ColumnDefinitions>
         <Grid.Background>
             <ImageBrush ImageSource="images/prueba10.jpg"/>
         </Grid.Background>
-        <DataGrid HorizontalAlignment="Left" Height="337" Margin="10,129,0,0" VerticalAlignment="Top" Width="759" Grid.Row="10" Grid.Column="10" Grid.RowSpan="10" Grid.ColumnSpan="8"/>
+        <Button Content="1" HorizontalAlignment="Left" Margin="84,118,0,0" VerticalAlignment="Top" Width="61" Height="46"/>
+        <Button Content="1" HorizontalAlignment="Left" Margin="84,169,0,0" VerticalAlignment="Top" Width="61" Height="46" RenderTransformOrigin="0.598,0.291"/>
+        <Button Content="1" HorizontalAlignment="Left" Margin="84,224,0,0" VerticalAlignment="Top" Width="61" Height="46"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="150,118,0,0" VerticalAlignment="Top" Width="61" Height="46" RenderTransformOrigin="1.67,0.56"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="150,169,0,0" VerticalAlignment="Top" Width="61" Height="46"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="150,224,0,0" VerticalAlignment="Top" Width="61" Height="46"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="216,118,0,0" VerticalAlignment="Top" Width="61" Height="46"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="216,169,0,0" VerticalAlignment="Top" Width="61" Height="46"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="216,224,0,0" VerticalAlignment="Top" Width="61" Height="46"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="282,118,0,0" VerticalAlignment="Top" Width="61" Height="46"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="282,169,0,0" VerticalAlignment="Top" Width="61" Height="46"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="282,224,0,0" VerticalAlignment="Top" Width="61" Height="46"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="348,118,0,0" VerticalAlignment="Top" Width="61" Height="46" RenderTransformOrigin="1.453,0.56"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="348,169,0,0" VerticalAlignment="Top" Width="61" Height="46"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="348,224,0,0" VerticalAlignment="Top" Width="61" Height="46"/>
+        <Button Content="1" HorizontalAlignment="Left" Margin="84,275,0,0" VerticalAlignment="Top" Width="61" Height="46" RenderTransformOrigin="6.118,1.184"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="150,275,0,0" VerticalAlignment="Top" Width="61" Height="46"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="216,275,0,0" VerticalAlignment="Top" Width="61" Height="46"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="282,275,0,0" VerticalAlignment="Top" Width="61" Height="46"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="348,275,0,0" VerticalAlignment="Top" Width="61" Height="46" RenderTransformOrigin="0.328,0.338"/>
+        <Label Content="A" HorizontalAlignment="Left" Margin="10,118,0,0" VerticalAlignment="Top" Height="46" Width="65" Background="#FFC5BBBB" FontWeight="Bold" FontFamily="Segoe UI Black"/>
+        <Label Content="B" HorizontalAlignment="Left" Margin="10,169,0,0" VerticalAlignment="Top" Height="46" Width="65" Background="#FFC5BBBB" FontWeight="Bold" FontFamily="Segoe UI Black" RenderTransformOrigin="0.521,1.531"/>
+        <Label Content="C" HorizontalAlignment="Left" Margin="10,224,0,0" VerticalAlignment="Top" Height="46" Width="65" Background="#FFC5BBBB" FontWeight="Bold" FontFamily="Segoe UI Black" RenderTransformOrigin="0.521,1.531"/>
+        <Label Content="D" HorizontalAlignment="Left" Margin="10,275,0,0" VerticalAlignment="Top" Height="46" Width="65" Background="#FFC5BBBB" FontWeight="Bold" FontFamily="Segoe UI Black" RenderTransformOrigin="0.521,1.531"/>
 
     </Grid>
 </Window>
