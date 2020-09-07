@@ -28,5 +28,9 @@ namespace ClasesBase
             get { return sala_Id; }
             set { sala_Id = value; }
         }
+
+        public bool Estado { get => estado; set => estado = value; }
+
+        private Boolean estado;
     }
 }
