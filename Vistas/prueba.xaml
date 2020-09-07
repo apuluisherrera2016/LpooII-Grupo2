@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:Vistas"
         mc:Ignorable="d"
         Title="prueba" Height="450" Width="800">
-    <Grid>
-       
+    <Grid Margin="0,0,0,-57">
+        <Grid.Background>
+            <ImageBrush ImageSource="images/prueba10.jpg"/>
+        </Grid.Background>
+        <DataGrid HorizontalAlignment="Left" Height="337" Margin="10,129,0,0" VerticalAlignment="Top" Width="759" Grid.Row="10" Grid.Column="10" Grid.RowSpan="10" Grid.ColumnSpan="8"/>
+
     </Grid>
 </Window>
