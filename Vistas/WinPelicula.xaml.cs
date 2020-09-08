@@ -62,8 +62,13 @@ namespace Vistas
 			if (result == MessageBoxResult.Yes)
 			{
 				Pelicula oPeli = new Pelicula();
+				Genero genero = new Genero();
+				Clasificacion clasificacion = new Clasificacion();
 				oPeli.Peli_Titulo = txtTitulo.Text;
 				oPeli.Peli_Duracion = int.Parse(txtDuracion.Text);
+				genero.Gen_Descripcion = txtGenero.Text;
+				clasificacion.Clas_Descripcion = txtClas.Text;
+
 				//oPeli.= cmbxGenero.Text;
 
 
@@ -71,8 +76,8 @@ namespace Vistas
 				MessageBox.Show("Se guardaron los siguiente datos: \n" +
 					"\n Titulo: " + oPeli.Peli_Titulo +
 					"\n Duracion: " + oPeli.Peli_Duracion +
-					"\n Genero: " +
-					"\n Clasificacion: ");
+					"\n Genero: " +  genero.Gen_Descripcion+
+					"\n Clasificacion: " + clasificacion.Clas_Descripcion);
 					
 
 				LimpiarCampos();
@@ -84,6 +89,8 @@ namespace Vistas
 		{
 			txtTitulo.Clear();
 			txtDuracion.Clear();
+			txtGenero.Clear();
+			txtClas.Clear();
 			
 			
 		}
