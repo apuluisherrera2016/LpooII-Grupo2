@@ -145,3 +145,40 @@ C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\Cliente.baml
 C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\Pelicula.baml
 C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\WinPelicula.g.cs
 C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\WinPelicula.baml
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\bin\Debug\Vistas.exe
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\bin\Debug\Vistas.pdb
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\bin\Debug\ClasesBase.dll
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\bin\Debug\ClasesBase.pdb
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.csprojAssemblyReference.cache
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\login1.baml
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\MainWindow.baml
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuPrincipal.baml
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuUsuario.baml
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\Window1.baml
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\Butaca.g.cs
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\Cliente.g.cs
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\login1.g.cs
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuButaca.g.cs
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuPrincipal.g.cs
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuProyecciones.g.cs
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\menuVendedor.g.cs
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuUsuario.g.cs
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\WinPelicula.g.cs
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\Window1.g.cs
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\App.g.cs
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas_MarkupCompile.cache
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas_MarkupCompile.lref
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\Butaca.baml
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\Cliente.baml
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuButaca.baml
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuProyecciones.baml
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\menuVendedor.baml
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\WinPelicula.baml
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.g.resources
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.cache
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.csproj.CopyComplete
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.exe
+C:\Users\Martin\Documents\Visual Studio 2017\Projects\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.pdb
