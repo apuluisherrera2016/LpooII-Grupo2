@@ -30,7 +30,7 @@ namespace Vistas
 
         private void MenuItem_Click(object sender, RoutedEventArgs e)
         {
-            Pelicula oPelicula = new Pelicula();
+            WinPelicula oPelicula = new WinPelicula();
             oPelicula.Show();
             this.Close();
         }

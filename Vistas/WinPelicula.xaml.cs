@@ -18,9 +18,9 @@ namespace Vistas
     /// <summary>
     /// Lógica de interacción para Pelicula.xaml
     /// </summary>
-    public partial class Pelicula : Window
+    public partial class WinPelicula : Window
     {
-        public Pelicula()
+        public WinPelicula()
         {
             InitializeComponent();
 

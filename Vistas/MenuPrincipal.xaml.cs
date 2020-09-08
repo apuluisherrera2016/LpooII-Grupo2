@@ -26,7 +26,7 @@ namespace Vistas
 
 		private void BtnPelicula_Click(object sender, RoutedEventArgs e)
 		{
-			Pelicula wPelicula = new Pelicula();
+			WinPelicula wPelicula = new WinPelicula();
 			wPelicula.Show();
 			this.Close();
 

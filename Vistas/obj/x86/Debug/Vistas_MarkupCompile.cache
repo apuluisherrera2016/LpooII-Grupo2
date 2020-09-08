@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\
+C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\
 Vistas
 none
 false
 DEBUG;TRACE
-C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\App.xaml
-11-1717917118
+C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\App.xaml
+11-1443059363
 
-15-87302658
-14-723186509
-Butaca.xaml;Cliente.xaml;login1.xaml;MainWindow.xaml;MenuButaca.xaml;MenuPrincipal.xaml;MenuProyecciones.xaml;menuVendedor.xaml;MenuUsuario.xaml;Pelicula.xaml;Window1.xaml;
+15-903314808
+14-719104634
+Butaca.xaml;Cliente.xaml;login1.xaml;MainWindow.xaml;MenuButaca.xaml;MenuPrincipal.xaml;MenuProyecciones.xaml;menuVendedor.xaml;MenuUsuario.xaml;WinPelicula.xaml;Window1.xaml;
 
-True
+False
 
