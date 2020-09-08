@@ -21,9 +21,9 @@
                 <Menu Grid.Column="1" Foreground="White" Background="Transparent" x:Name="menu1" Margin="0,28,10,24">
 
                     <MenuItem Header="Usuario" Margin="10 " FontSize="20" />
-                    <MenuItem Header="Pelicula" Margin="10" FontSize="20"  />
-                    <MenuItem Header="Butaca" Margin="10" FontSize="20"  />
-                    <MenuItem Header="Proyecciones" Margin="10" FontSize="20" />
+                    <MenuItem Header="Pelicula" Margin="10" FontSize="20" Name="btnPelicula" Click="BtnPelicula_Click" />
+                    <MenuItem Header="Butaca" Margin="10" FontSize="20" Name="btnButaca" Click="BtnButaca_Click"  />
+                    <MenuItem Header="Proyecciones" Margin="10" FontSize="20" Name="btnProyecciones" Click="BtnProyecciones_Click"/>
                 </Menu>
 
 

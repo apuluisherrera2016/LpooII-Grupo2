@@ -10,6 +10,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using ClasesBase;
 
 namespace Vistas
 {
@@ -22,5 +23,27 @@ namespace Vistas
         {
             InitializeComponent();
         }
-    }
+
+		private void BtnPelicula_Click(object sender, RoutedEventArgs e)
+		{
+			Pelicula wPelicula = new Pelicula();
+			wPelicula.Show();
+			this.Close();
+
+		}
+
+		private void BtnButaca_Click(object sender, RoutedEventArgs e)
+		{
+			MenuButaca wButaca = new MenuButaca();
+			wButaca.Show();
+			this.Close();
+		}
+
+		private void BtnProyecciones_Click(object sender, RoutedEventArgs e)
+		{
+			MenuProyecciones wProyecciones = new MenuProyecciones();
+			wProyecciones.Show();
+			this.Close();
+		}
+	}
 }

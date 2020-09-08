@@ -76,11 +76,14 @@
     <Compile Include="Butaca.xaml.cs">
       <DependentUpon>Butaca.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Cliente.xaml.cs">
+      <DependentUpon>Cliente.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MenuButaca.xaml.cs">
       <DependentUpon>MenuButaca.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MenuPelicula.xaml.cs">
-      <DependentUpon>MenuPelicula.xaml</DependentUpon>
+    <Compile Include="Pelicula.xaml.cs">
+      <DependentUpon>Pelicula.xaml</DependentUpon>
     </Compile>
     <Compile Include="MenuPrincipal.xaml.cs">
       <DependentUpon>MenuPrincipal.xaml</DependentUpon>
@@ -98,6 +101,10 @@
       <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
     <Page Include="Butaca.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cliente.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -140,7 +147,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MenuPelicula.xaml">
+    <Page Include="Pelicula.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

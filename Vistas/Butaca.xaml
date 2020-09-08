@@ -15,7 +15,11 @@
         </Style>
     </Window.Resources>
     <Grid Loaded="Grid_Loaded" Margin="0,10,0,0">
-        <Grid Height="344" HorizontalAlignment="Left" Margin="262,95,0,0" Name="GridButacas" VerticalAlignment="Top" Width="322" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="163*"/>
+            <ColumnDefinition Width="585*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Height="344" HorizontalAlignment="Left" Margin="98.805,95,0,0" Name="GridButacas" VerticalAlignment="Top" Width="322" Grid.Column="1" >
 
             <Grid.ColumnDefinitions>
                 <!--defino las columnas de la grilla-->
@@ -69,7 +73,7 @@
 
 
         </Grid>
-        <StackPanel Height="72" HorizontalAlignment="Left" Margin="262,420,0,0" Name="stackPanel1" VerticalAlignment="Top" Width="322" Orientation="Horizontal">
+        <StackPanel Height="72" HorizontalAlignment="Left" Margin="98.805,420,0,0" Name="stackPanel1" VerticalAlignment="Top" Width="322" Orientation="Horizontal" Grid.Column="1">
             <Label Content="Disponible" Height="28" Name="label1" />
             <Rectangle Height="28" Name="rectangle1" Stroke="Black" Width="36" Fill="LightGray" />
             <Label Content="Su elección" Height="28" Name="label2" />
@@ -77,6 +81,6 @@
             <Label Content="Ocupado" Height="28" Name="label3" />
             <Rectangle Height="28" Name="rectangle3" Stroke="Black" Width="36" Fill="Red" />
         </StackPanel>
-        <Button Content="SALIR" Height="23" HorizontalAlignment="Left" Margin="585,502,0,0" Name="btnSalir" VerticalAlignment="Top" Width="75" FontWeight="Normal" FontFamily="Arial Rounded MT" Click="btnSalir_Click" />
+        <Button Content="SALIR" Height="23" HorizontalAlignment="Left" Margin="421.805,502,0,0" Name="btnSalir" VerticalAlignment="Top" Width="75" FontWeight="Normal" FontFamily="Arial Rounded MT" Click="btnSalir_Click" Grid.Column="1" />
     </Grid>
 </Window>
