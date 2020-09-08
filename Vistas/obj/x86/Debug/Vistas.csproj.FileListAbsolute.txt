@@ -83,16 +83,12 @@ C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\login1.g.cs
 C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\MainWindow.g.cs
 C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuButaca.g.cs
 C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuProyecciones.g.cs
-C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuPelicula.g.cs
-C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\prueba.g.cs
 C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\Window1.g.cs
 C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\App.g.cs
 C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas_MarkupCompile.cache
 C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas_MarkupCompile.lref
 C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuButaca.baml
 C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuProyecciones.baml
-C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\MenuPelicula.baml
-C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\prueba.baml
 C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.g.resources
 C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
 C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.cache
@@ -145,3 +141,7 @@ C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\Cliente.g.cs
 C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\Pelicula.g.cs
 C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\Cliente.baml
 C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\Pelicula.baml
+C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\Cliente.g.cs
+C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\Pelicula.g.cs
+C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\Cliente.baml
+C:\Users\luisg\Source\Repos\LpooII-Grupo2\Vistas\obj\x86\Debug\Pelicula.baml
