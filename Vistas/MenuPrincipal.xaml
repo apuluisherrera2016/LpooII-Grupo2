@@ -6,36 +6,30 @@
          Icon="images/cine.ico" >
     <Grid>
 
-
         <StackPanel  Height="570" Margin="0,0,-12,0" Name="stackPanel2" VerticalAlignment="Top">
+
             <StackPanel.Background>
                 <ImageBrush ImageSource="/Vistas;component/images/prueba7.jpg" />
-
             </StackPanel.Background>
+
             <Grid HorizontalAlignment="Stretch" Height="110">
                 <Grid.ColumnDefinitions >
                     <ColumnDefinition Width="173*"  SharedSizeGroup="a"/>
                     <ColumnDefinition Width="587*" SharedSizeGroup="b"/>
                 </Grid.ColumnDefinitions>
                 <Image   Source="images/pruebaaa.png" Margin="24,10,33,10" Stretch="Fill"/>
-                <Menu Grid.Column="1" Foreground="White" Background="Transparent" x:Name="menu1" Margin="0,28,10,24">
+                <Menu Grid.Column="1" Foreground="White" Background="Transparent" x:Name="menu1" Margin="0,28,43,24">
 
                     <MenuItem Header="Usuario" Margin="10 " FontSize="20" />
                     <MenuItem Header="Pelicula" Margin="10" FontSize="20" Name="btnPelicula" Click="BtnPelicula_Click" />
                     <MenuItem Header="Butaca" Margin="10" FontSize="20" Name="btnButaca" Click="BtnButaca_Click"  />
                     <MenuItem Header="Proyecciones" Margin="10" FontSize="20" Name="btnProyecciones" Click="BtnProyecciones_Click"/>
+                    <MenuItem Header="Salir" Margin="10 " FontSize="20" Click="MenuItem_Click" />
                 </Menu>
-
-
-
-
             </Grid>
-            <DataGrid Name="dgUsuario" Opacity="0.5" Foreground="White" Height="203" Background="Black" Margin="34,0,38,0"/>
-            
-            
 
+            <DataGrid Name="dgUsuario" Opacity="0.5" Foreground="White" Height="203" Background="Black" Margin="34,0,38,0"/>
 
         </StackPanel>
-
     </Grid>
 </Window>

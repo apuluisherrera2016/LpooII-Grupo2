@@ -26,25 +26,16 @@
                 <Separator></Separator>
                 <Label Name="lblError"  Background="Transparent"  Foreground="white" FontSize="18"/>
                 <Label Content="Usuario" FontSize="20" Foreground="white" />
-                <TextBox Name="txtUsuario" Background="Transparent"  Foreground="white" FontSize="18"/>
+                <TextBox Name="txtUsuario" Background="Transparent"  Foreground="white" FontSize="18" CaretBrush="White"/>
                 <Label Content="Contraseña" FontSize="20" Foreground="white" />
-
-                <PasswordBox Name="pwbContraseña" Background="Transparent"   Foreground="white" FontSize="18"/>
+                <PasswordBox Name="pwbContraseña" Background="Transparent"   Foreground="white" FontSize="18" CaretBrush="White"/>
                 <Border >
                     <StackPanel Margin="10" >
                         <Button Name="btnEntrar" BorderBrush="#3C74B5" Content="Entrar" Margin="60 10" Background="Transparent" Foreground="white" FontSize="18" Click="btnEntrar_Click" />
                         <Button Name="btnSalir" BorderBrush="#3C74B5" Content="Salir" Margin="60 10" Background="Transparent" Foreground="white" FontSize="18" Click="btnSalir_Click" />
-
                     </StackPanel>
                 </Border>
-
-
-
-
             </StackPanel>
-
-
         </Grid>
-
     </Grid>
 </Window>

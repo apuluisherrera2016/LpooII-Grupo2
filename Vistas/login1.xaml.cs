@@ -15,20 +15,14 @@ using System.Windows.Shapes;
 
 namespace Vistas
 {
-    /// <summary>
-    /// Interaction logic for login1.xaml
-    /// </summary>
     public partial class login1 : Window
     {
         Usuario adminUsuario = new Usuario();
         Usuario unVendedor = new Usuario();
 
-
-
         public login1()
         {
             InitializeComponent();
-          
         }
 
         private void btnSalir_Click(object sender, RoutedEventArgs e)
@@ -44,17 +38,14 @@ namespace Vistas
             unVendedor.Usu_Password = "vendedor";
 
             String pass = pwbContraseña.Password.ToString();
+
             if (txtUsuario.Text.Equals( adminUsuario.Usu_Username) && pass.Equals(adminUsuario.Usu_Password) )
             {
-                
-                   MenuPrincipal  menuUsuario = new MenuPrincipal();
-                    menuUsuario.Show();
-                    this.Close();
-                
+                MenuPrincipal menuUsuario = new MenuPrincipal();
+                menuUsuario.Show();
+                this.Close();
             }
-
             else
-
             {
                 if(txtUsuario.Text.Equals(unVendedor.Usu_Username) && pass.Equals(unVendedor.Usu_Password))
                 {
@@ -68,9 +59,5 @@ namespace Vistas
                 }
             }
         }
-
-       
-
-        
     }
 }
