@@ -23,7 +23,7 @@
                 <Image   Source="images/pruebaaa.png" Margin="24,10,33,10" Stretch="Fill"/>
                 <Menu Grid.Column="1" Foreground="White" Background="Transparent" x:Name="menu1" Margin="0,28,10,0">
 
-                    <MenuItem Header="Cliente" Margin="10 " FontSize="20" />
+                    <MenuItem Header="Cliente" Margin="10 " FontSize="20" Name="mainCliente" Click="MainCliente_Click"  />
                     <MenuItem Header="Ticket" Margin="10" FontSize="20" />
                     <MenuItem Header="Salir" Margin="10" FontSize="20" />
 

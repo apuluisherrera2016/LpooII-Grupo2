@@ -22,5 +22,12 @@ namespace Vistas
         {
             InitializeComponent();
         }
-    }
+
+		private void MainCliente_Click(object sender, RoutedEventArgs e)
+		{
+			ABMClientes winCliente = new ABMClientes();
+			winCliente.Show();
+			this.Close();
+		}
+	}
 }

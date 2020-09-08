@@ -73,11 +73,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Butaca.xaml.cs">
-      <DependentUpon>Butaca.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Cliente.xaml.cs">
-      <DependentUpon>Cliente.xaml</DependentUpon>
+    <Compile Include="ABMClientes.xaml.cs">
+      <DependentUpon>ABMClientes.xaml</DependentUpon>
     </Compile>
     <Compile Include="MenuButaca.xaml.cs">
       <DependentUpon>MenuButaca.xaml</DependentUpon>
@@ -97,11 +94,7 @@
     <Compile Include="Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
-    <Page Include="Butaca.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Cliente.xaml">
+    <Page Include="ABMClientes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

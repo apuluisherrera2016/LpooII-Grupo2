@@ -53,5 +53,10 @@ namespace Vistas
 			mMain.Show();
 			this.Close();
 		}
+
+		private void BntNuevoFilms_Click(object sender, RoutedEventArgs e)
+		{
+
+		}
 	}
 }
