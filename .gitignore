@@ -22,3 +22,7 @@ ClasesBase/obj/Debug/ClasesBase.dll
 ClasesBase/obj/Debug/ClasesBase.pdb
 ClasesBase/bin/Debug/ClasesBase.dll
 ClasesBase/bin/Debug/ClasesBase.pdb
+*.lock
+*.ide
+*.ide-shm
+*.ide-wal
