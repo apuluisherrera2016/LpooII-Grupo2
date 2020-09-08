@@ -1,8 +1,32 @@
 ﻿<Window x:Class="Vistas.Window1"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Window1" Height="300" Width="300" Loaded="Window_Loaded">
-    <Grid>
-        
+        Title="Window1" Height="362.766" Width="446.809" Loaded="Window_Loaded">
+    <Grid Margin="0,0,24,17">
+        <StackPanel HorizontalAlignment="Left" Height="261" Margin="10,43,0,0" VerticalAlignment="Top" Width="55" Name="stkLbl">
+            <Label Content="A" Height="37" />
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="261" Margin="83,43,0,0" VerticalAlignment="Top" Width="50">
+            <Button Content="1" Height="35"/>
+            
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="261" Margin="140,43,0,0" VerticalAlignment="Top" Width="50">
+            <Button Content="2" Height="35"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="261" Margin="195,43,0,0" VerticalAlignment="Top" Width="50">
+            <Button Content="3" Height="36"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="261" Margin="250,43,0,0" VerticalAlignment="Top" Width="50">
+            <Button Content="4" Height="38"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="261" Margin="305,43,0,0" VerticalAlignment="Top" Width="50">
+            <Button Content="5" Height="39"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="261" Margin="360,43,0,0" VerticalAlignment="Top" Width="50">
+            <Button Content="6" Height="38"/>
+        </StackPanel>
+
+
     </Grid>
+    
 </Window>
