@@ -45,5 +45,12 @@ namespace Vistas
 			wProyecciones.Show();
 			this.Close();
 		}
-	}
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            login1 login = new login1();
+            login.Show();
+            this.Close();
+        }
+    }
 }
