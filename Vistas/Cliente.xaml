@@ -5,8 +5,44 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vistas"
         mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
         Title="Cliente" Height="450" Width="800">
+
     <Grid>
+
+        <StackPanel  Height="570" Margin="0,0,-12,0" Name="stackPanel2" VerticalAlignment="Top">
+
+            <StackPanel.Background>
+                <ImageBrush ImageSource="/Vistas;component/images/prueba7.jpg" />
+            </StackPanel.Background>
+
+            <Grid HorizontalAlignment="Stretch" Height="110">
+                <Grid.ColumnDefinitions >
+                    <ColumnDefinition Width="173*"  SharedSizeGroup="a"/>
+                    <ColumnDefinition Width="587*" SharedSizeGroup="b"/>
+                </Grid.ColumnDefinitions>
+                <Image   Source="images/pruebaaa.png" Margin="24,10,33,10" Stretch="Fill"/>
+                <Menu Grid.Column="1" Foreground="White" Background="Transparent" x:Name="menu1" Margin="0,28,39,0">
+                    <MenuItem Header="Cliente" Margin="10 " FontSize="20" />
+                    <MenuItem Header="Ticket" Margin="10" FontSize="20" />
+                    <MenuItem Header="Salir" Margin="10" FontSize="20" Click="MenuItem_Click" />
+                </Menu>
+            </Grid>
+
+            <Grid Height="215" RenderTransformOrigin="0.5,0.735">
+                <Label Content="Nombre" FontSize="20" Foreground="White" HorizontalAlignment="Left" Margin="226,90,0,0" VerticalAlignment="Top"/>
+                <TextBox HorizontalAlignment="Left" Height="22" Margin="409,97,0,0" TextWrapping="Wrap" Text="TextBox" Background="Transparent" VerticalAlignment="Top" Width="120"/>
+                <Label Content="Apellido" FontSize="20" Foreground="White" HorizontalAlignment="Left" Margin="226,125,0,0" VerticalAlignment="Top"/>
+                <TextBox HorizontalAlignment="Left" Height="22" Background="Transparent" Margin="409,132,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                <Label Content="DNI" FontSize="20" Foreground="White" HorizontalAlignment="Left" Margin="226,165,0,0" VerticalAlignment="Top"/>
+                <Label Content="Telefono" FontSize="20" Foreground="White" HorizontalAlignment="Left" Margin="226,202,0,-24" VerticalAlignment="Top"/>
+                <ListBox HorizontalAlignment="Left" Background="Transparent" Height="24" Margin="409,169,0,0" VerticalAlignment="Top" Width="120"/>
+                <ListBox HorizontalAlignment="Left" Background="Transparent" Height="24" Margin="409,207,0,-16" VerticalAlignment="Top" Width="120"/>
+                
+            </Grid>
+            
+
+        </StackPanel>
         
     </Grid>
 </Window>

@@ -22,5 +22,12 @@ namespace Vistas
 		{
 			InitializeComponent();
 		}
-	}
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            login1 login = new login1();
+            login.Show();
+            this.Close();
+        }
+    }
 }

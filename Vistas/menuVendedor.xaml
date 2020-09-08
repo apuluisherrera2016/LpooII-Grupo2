@@ -5,16 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vistas"
         mc:Ignorable="d"
-           WindowStartupLocation="CenterScreen"
-         Icon="images/cine.ico"  Height="399.913" Width="911.898" >
+        WindowStartupLocation="CenterScreen"
+        Icon="images/cine.ico"  Height="399.913" Width="911.898" >
+    
     <Grid Margin="0,0,0,127">
 
-
         <StackPanel  Height="377" Margin="0,0,0,-277" Name="stackPanel2" VerticalAlignment="Top">
+            
             <StackPanel.Background>
                 <ImageBrush ImageSource="/Vistas;component/images/prueba7.jpg" />
-
             </StackPanel.Background>
+            
             <Grid HorizontalAlignment="Stretch" Height="110">
                 <Grid.ColumnDefinitions >
                     <ColumnDefinition Width="173*"  SharedSizeGroup="a"/>
@@ -22,20 +23,11 @@
                 </Grid.ColumnDefinitions>
                 <Image   Source="images/pruebaaa.png" Margin="24,10,33,10" Stretch="Fill"/>
                 <Menu Grid.Column="1" Foreground="White" Background="Transparent" x:Name="menu1" Margin="0,28,39,0">
-
-                    <MenuItem Header="Cliente" Margin="10 " FontSize="20" />
+                    <MenuItem Header="Cliente" Margin="10 " FontSize="20" Click="MenuItem_Click_1" />
                     <MenuItem Header="Ticket" Margin="10" FontSize="20" />
                     <MenuItem Header="Salir" Margin="10" FontSize="20" Click="MenuItem_Click" />
-
                 </Menu>
-
-
-
-
             </Grid>
-
-
         </StackPanel>
-
     </Grid>
 </Window>
