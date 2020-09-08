@@ -57,6 +57,35 @@ namespace Vistas
 		private void BntNuevoFilms_Click(object sender, RoutedEventArgs e)
 		{
 
+
+			MessageBoxResult result = MessageBox.Show("Desea guardar los datos cargados?", "CONFIRMACION", MessageBoxButton.YesNo);
+			if (result == MessageBoxResult.Yes)
+			{
+				Pelicula oPeli = new Pelicula();
+				oPeli.Peli_Titulo = txtTitulo.Text;
+				oPeli.Peli_Duracion = int.Parse(txtDuracion.Text);
+				//oPeli.= cmbxGenero.Text;
+
+
+
+				MessageBox.Show("Se guardaron los siguiente datos: \n" +
+					"\n Titulo: " + oPeli.Peli_Titulo +
+					"\n Duracion: " + oPeli.Peli_Duracion +
+					"\n Genero: " +
+					"\n Clasificacion: ");
+					
+
+				LimpiarCampos();
+
+			}
+
+		}
+		private void LimpiarCampos()
+		{
+			txtTitulo.Clear();
+			txtDuracion.Clear();
+			
+			
 		}
 	}
 }
