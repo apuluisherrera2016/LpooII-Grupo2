@@ -34,22 +34,22 @@
 
 
             </Grid>
-            <DataGrid Name="dgPelicula" Opacity="0.5" Foreground="White" Height="203" Background="Black" Margin="34,0,38,0" SelectionChanged="DgPelicula_SelectionChanged"/>
+            <DataGrid Name="dgPelicula" Opacity="0.5" Foreground="White" Height="198" Background="Black" Margin="34,0,38,0" SelectionChanged="DgPelicula_SelectionChanged"/>
             <Grid Height="215">
-                <Label Content="Titulo" FontSize="20" Foreground="White" HorizontalAlignment="Left" Margin="226,90,0,0" VerticalAlignment="Top"/>
-                <TextBox HorizontalAlignment="Left" Height="22" Margin="409,97,0,0" TextWrapping="Wrap" Text="TextBox" Background="Transparent" VerticalAlignment="Top" Width="120"/>
-                <Label Content="Duracion" FontSize="20" Foreground="White" HorizontalAlignment="Left" Margin="226,125,0,0" VerticalAlignment="Top"/>
-                <TextBox HorizontalAlignment="Left" Height="22" Background="Transparent" Margin="409,132,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-                <Label Content="Genero" FontSize="20" Foreground="White" HorizontalAlignment="Left" Margin="226,165,0,0" VerticalAlignment="Top"/>
-                <Label Content="Clasificacion" FontSize="20" Foreground="White" HorizontalAlignment="Left" Margin="226,202,0,-24" VerticalAlignment="Top"/>
-                <ListBox HorizontalAlignment="Left" Background="Transparent" Height="24" Margin="409,169,0,0" VerticalAlignment="Top" Width="120"/>
-                <ListBox HorizontalAlignment="Left" Background="Transparent" Height="24" Margin="409,207,0,-16" VerticalAlignment="Top" Width="120"/>
+                <Label Content="Titulo" FontSize="20" Foreground="White" HorizontalAlignment="Left" Margin="270,49,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.695,-1.534"/>
+                <TextBox HorizontalAlignment="Left" Height="22" Margin="419,62,0,0" TextWrapping="Wrap" Text="TextBox" Background="Transparent" VerticalAlignment="Top" Width="120"/>
+                <Label Content="Duracion" FontSize="20" Foreground="White" HorizontalAlignment="Left" Margin="270,90,0,0" VerticalAlignment="Top"/>
+                <TextBox HorizontalAlignment="Left" Height="22" Background="Transparent" Margin="419,103,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                <Label Content="Genero" FontSize="20" Foreground="White" HorizontalAlignment="Left" Margin="270,135,0,0" VerticalAlignment="Top"/>
+                <Label Content="Clasificacion" FontSize="20" Foreground="White" HorizontalAlignment="Left" Margin="270,172,0,0" VerticalAlignment="Top"/>
+                <ListBox HorizontalAlignment="Left" Background="Transparent" Height="24" Margin="419,148,0,0" VerticalAlignment="Top" Width="120"/>
+                <ListBox HorizontalAlignment="Left" Background="Transparent" Height="24" Margin="419,181,0,0" VerticalAlignment="Top" Width="120"/>
 
             </Grid>
-            
+
 
         </StackPanel>
-        <Grid HorizontalAlignment="Left" Height="130" Margin="98,430,0,0" VerticalAlignment="Top" Width="570">
+        <Grid HorizontalAlignment="Left" Height="275" Margin="98,285,0,0" VerticalAlignment="Top" Width="570">
 
 
             <Grid.RowDefinitions>
@@ -57,7 +57,7 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <Menu Foreground="White" Background="Transparent"  Margin="97,-89,111,31">
+            <Menu Foreground="White" Background="Transparent"  Margin="-69,59,485,10" Grid.RowSpan="2">
 
                 <MenuItem Header="NUEVO" Margin="10 " FontSize="20" Click="MenuItem_Click" />
                 <MenuItem Header="MODIFICAR" Margin="10" FontSize="20" />

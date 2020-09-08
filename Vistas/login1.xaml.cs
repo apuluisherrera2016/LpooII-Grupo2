@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClasesBase;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+
 namespace Vistas
 {
     /// <summary>
@@ -18,9 +20,15 @@ namespace Vistas
     /// </summary>
     public partial class login1 : Window
     {
+        Usuario adminUsuario = new Usuario();
+        Usuario unVendedor = new Usuario();
+
+
+
         public login1()
         {
             InitializeComponent();
+          
         }
 
         private void btnSalir_Click(object sender, RoutedEventArgs e)
@@ -30,14 +38,39 @@ namespace Vistas
 
         private void btnEntrar_Click(object sender, RoutedEventArgs e)
         {
-            if (txtUsuario.Text == "admin" )
+            adminUsuario.Usu_Username = "admin";
+            adminUsuario.Usu_Password = "admin";
+            unVendedor.Usu_Username = "vendedor";
+            unVendedor.Usu_Password = "vendedor";
+
+            String pass = pwbContraseña.Password.ToString();
+            if (txtUsuario.Text.Equals( adminUsuario.Usu_Username) && pass.Equals(adminUsuario.Usu_Password) )
             {
-                MiMenu menuAdmin = new MiMenu();
-                menuAdmin.Show();
-                this.Close();
+                
+                   MenuPrincipal  menuUsuario = new MenuPrincipal();
+                    menuUsuario.Show();
+                    this.Close();
+                
             }
+
             else
-                lblError.Content = lblError.Content + "Datos incorrectos";
+
+            {
+                if(txtUsuario.Text.Equals(unVendedor.Usu_Username) && pass.Equals(unVendedor.Usu_Password))
+                {
+                    menuVendedor unVendedor = new menuVendedor();
+                    unVendedor.Show();
+                    this.Close();
+                }
+                else
+                {
+                    lblError.Content = lblError.Content + "datos incorectos";
+                }
+            }
         }
+
+       
+
+        
     }
 }

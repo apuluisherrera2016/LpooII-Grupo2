@@ -42,7 +42,9 @@ namespace Vistas
 
         private void MenuItem_Click(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = System.Windows.MessageBox.Show("Mensaje de Alerta", "Titulo de Alerta", MessageBoxButton.OKCancel);
+            Pelicula oPelicula = new Pelicula();
+
+            
         }
     }
 }

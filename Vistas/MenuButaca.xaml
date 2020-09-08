@@ -6,8 +6,16 @@
         xmlns:local="clr-namespace:Vistas"
         mc:Ignorable="d"
        Title="PELICULA" Height="601" Width="756"
-          WindowStartupLocation="CenterScreen"
-         Icon="images/cine.ico" >
+         
+         Icon="images/cine.ico" 
+         WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Window.Resources>
+        <Style TargetType="Button" x:Key="EstiloBotonButaca">
+            <Setter Property="Background" Value="LightGray"/>
+        </Style>
+    </Window.Resources>
+
+
     <Grid>
 
 
@@ -24,7 +32,7 @@
                 <Image   Source="images/pruebaaa.png" Margin="24,10,33,10" Stretch="Fill"/>
                 <Menu Grid.Column="1" Foreground="White" Background="Transparent" x:Name="menu1" Margin="0,28,10,24">
 
-                    <MenuItem Header="Usuario" Margin="10 " FontSize="20" />
+                    <MenuItem Header="Usuario" Margin="10 " FontSize="20" Click="MenuItem_Click_1" />
                     <MenuItem Header="Pelicula" Margin="10" FontSize="20" />
                     <MenuItem Header="Butaca" Margin="10" FontSize="20" />
                     <MenuItem Header="Proyecciones" Margin="10" FontSize="20" Click="MenuItem_Click" />
@@ -32,19 +40,74 @@
 
             </Grid>
 
-            <Grid Background="Black" Opacity="0.5" Width="600" Height="200">
-                <Button  Width="50" Height="50" Margin="199,83,351,67"/>
-                <Button Width="50" Height="50" Margin="140,81,410,69"/>
-                <Button Height="50" Margin="138,6,231,144" />
-                <Button Width="50" Height="50" Margin="258,83,292,67" />
-                <Button Width="50" Height="50" Margin="259,139,291,11" />
-                <Button Width="50" Height="50" Margin="201,139,349,11" />
-                <Button Width="50" Height="50" Margin="141,137,409,13" />
-                <Button Width="50" Height="50" Margin="317,83,233,67" />
-                <Button Width="50" Height="50" Margin="319,139,231,11" />
+            <Grid Background="Black" Opacity="0.5"  Width="600" Height="380" Margin="80,0">
 
 
-            </Grid>
+                <Grid   Margin="0,0,0,0">
+                    <Grid  Height="344" HorizontalAlignment="Center" Name="GridButacas" VerticalAlignment="Top" Width="322" >
+
+                        <Grid.ColumnDefinitions>
+                            <!--defino las columnas de la grilla-->
+                            <ColumnDefinition Width="50"></ColumnDefinition>
+                            <ColumnDefinition Width="50"></ColumnDefinition>
+                            <ColumnDefinition Width="50"></ColumnDefinition>
+                            <ColumnDefinition Width="50"></ColumnDefinition>
+                            <ColumnDefinition Width="50"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <!--defino las fila de la grilla-->
+                            <RowDefinition Height="50"></RowDefinition>
+                            <RowDefinition Height="50"></RowDefinition>
+                            <RowDefinition Height="50"></RowDefinition>
+                            <RowDefinition Height="50"></RowDefinition>
+                            <RowDefinition Height="50"></RowDefinition>
+                            <RowDefinition Height="50"></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Label Content="PANTALLA" Grid.ColumnSpan="4" Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Gray" FontWeight="Bold" FontSize="14"/>
+
+                        <Label Content="A" Grid.Row="1"></Label>
+                        <Button Name="A1" Grid.Row="1" Grid.Column="1" Click="botonButaca_Click" Style="{StaticResource EstiloBotonButaca}">1</Button>
+                        <Button Name="A2" Grid.Row="1" Grid.Column="2"  Click="botonButaca_Click" Style="{StaticResource EstiloBotonButaca}">2</Button>
+                        <Button Name="A3" Grid.Row="1" Grid.Column="3"  Click="botonButaca_Click" Style="{StaticResource EstiloBotonButaca}">3</Button>
+                        <Button Name="A4" Grid.Row="1" Grid.Column="4"  Click="botonButaca_Click" Style="{StaticResource EstiloBotonButaca}">4</Button>
+
+                        <Label Content="B" Grid.Row="2"></Label>
+                        <Button Name="B1" Grid.Row="2" Grid.Column="1"  Click="botonButaca_Click" Style="{StaticResource EstiloBotonButaca}">1</Button>
+                        <Button Name="B2" Grid.Row="2" Grid.Column="2"  Click="botonButaca_Click" Style="{StaticResource EstiloBotonButaca}">2</Button>
+                        <Button Name="B3" Grid.Row="2" Grid.Column="3"  Click="botonButaca_Click" Style="{StaticResource EstiloBotonButaca}">3</Button>
+                        <Button Name="B4" Grid.Row="2" Grid.Column="4"  Click="botonButaca_Click" Style="{StaticResource EstiloBotonButaca}">4</Button>
+
+                        <Label Content="C" Grid.Row="3"></Label>
+                        <Button Name="C1" Grid.Row="3" Grid.Column="1"  Click="botonButaca_Click" Style="{StaticResource EstiloBotonButaca}">1</Button>
+                        <Button Name="C2" Grid.Row="3" Grid.Column="2"  Click="botonButaca_Click" Style="{StaticResource EstiloBotonButaca}">2</Button>
+                        <Button Name="C3" Grid.Row="3" Grid.Column="3"  Click="botonButaca_Click" Style="{StaticResource EstiloBotonButaca}">3</Button>
+                        <Button Name="C4" Grid.Row="3" Grid.Column="4" Click="botonButaca_Click" Style="{StaticResource EstiloBotonButaca}">4</Button>
+
+                        <Label Content="D" Grid.Row="4"></Label>
+                        <Button Name="D1" Grid.Row="4" Grid.Column="1"  Click="botonButaca_Click" Style="{StaticResource EstiloBotonButaca}">1</Button>
+                        <Button Name="D2" Grid.Row="4" Grid.Column="2"  Click="botonButaca_Click" Style="{StaticResource EstiloBotonButaca}">2</Button>
+                        <Button Name="D3" Grid.Row="4" Grid.Column="3"  Click="botonButaca_Click" Style="{StaticResource EstiloBotonButaca}">3</Button>
+                        <Button Name="D4" Grid.Row="4" Grid.Column="4"  Click="botonButaca_Click" Style="{StaticResource EstiloBotonButaca}">4</Button>
+
+                        <Label Content="E" Grid.Row="5"></Label>
+                        <Button Name="E1" Grid.Row="5" Grid.Column="1"  Click="botonButaca_Click" Style="{StaticResource EstiloBotonButaca}">1</Button>
+                        <Button Name="E2" Grid.Row="5" Grid.Column="2"  Click="botonButaca_Click" Style="{StaticResource EstiloBotonButaca}">2</Button>
+                        <Button Name="E3" Grid.Row="5" Grid.Column="3"  Click="botonButaca_Click" Style="{StaticResource EstiloBotonButaca}">3</Button>
+                        <Button Name="E4" Grid.Row="5" Grid.Column="4"  Click="botonButaca_Click" Style="{StaticResource EstiloBotonButaca}">4</Button>
+
+
+                    </Grid>
+                    <StackPanel Height="72" Margin="82,309,0,0" HorizontalAlignment="Left"   Name="stackPanel1" VerticalAlignment="Top" Width="322" Orientation="Horizontal">
+                        <Label Content="Disponible" Foreground="White" Height="28" Name="label1" />
+                        <Rectangle Height="28" Name="rectangle1" Stroke="Black" Width="36" Fill="LightGray" />
+                        <Label Content="Su elección" Foreground="white" Height="28" Name="label2" />
+                        <Rectangle Height="28" Name="rectangle2" Stroke="Black" Width="36" Fill="Green" />
+                        <Label Content="Ocupado" Foreground="White" Height="28" Name="label3" />
+                        <Rectangle Height="28" Name="rectangle3" Stroke="Black" Width="36" Fill="Red" />
+                    </StackPanel>
+                   
+                </Grid>
 
 
 
@@ -52,37 +115,11 @@
 
 
 
-            <Grid Height="215">
-                <Label Content="Titulo" FontSize="20" Foreground="White" HorizontalAlignment="Left" Margin="226,90,0,0" VerticalAlignment="Top"/>
-                <TextBox HorizontalAlignment="Left" Height="22" Margin="409,97,0,0" TextWrapping="Wrap" Text="TextBox" Background="Transparent" VerticalAlignment="Top" Width="120"/>
-                <Label Content="Duracion" FontSize="20" Foreground="White" HorizontalAlignment="Left" Margin="226,125,0,0" VerticalAlignment="Top"/>
-                <TextBox HorizontalAlignment="Left" Height="22" Background="Transparent" Margin="409,132,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-                <Label Content="Genero" FontSize="20" Foreground="White" HorizontalAlignment="Left" Margin="226,165,0,0" VerticalAlignment="Top"/>
-                <Label Content="Clasificacion" FontSize="20" Foreground="White" HorizontalAlignment="Left" Margin="226,202,0,-24" VerticalAlignment="Top"/>
-                <ListBox HorizontalAlignment="Left" Background="Transparent" Height="24" Margin="409,169,0,0" VerticalAlignment="Top" Width="120"/>
-                <ListBox HorizontalAlignment="Left" Background="Transparent" Height="24" Margin="409,207,0,-16" VerticalAlignment="Top" Width="120"/>
 
             </Grid>
 
 
         </StackPanel>
-        <Grid HorizontalAlignment="Left" Height="130" Margin="98,430,0,0" VerticalAlignment="Top" Width="570">
-
-
-            <Grid.RowDefinitions>
-                <RowDefinition Height="0*"/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
-
-            <Menu Foreground="White" Background="Transparent"  Margin="97,-89,111,31">
-
-                <MenuItem Header="NUEVO" Margin="10 " FontSize="20"/>
-                <MenuItem Header="MODIFICAR" Margin="10" FontSize="20" />
-                <MenuItem Header="ELIMINAR" Margin="10" FontSize="20" />
-
-            </Menu>
-
-        </Grid>
-
+        <Button Background="Transparent" Foreground="White" Content="SALIR" Height="23" HorizontalAlignment="Left" Margin="490,515,0,0" Name="btnSalir" VerticalAlignment="Top" Width="75" FontWeight="Normal" FontFamily="Arial Rounded MT" Click="btnSalir_Click" />
     </Grid>
 </Window>

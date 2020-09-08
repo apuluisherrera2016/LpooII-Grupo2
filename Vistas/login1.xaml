@@ -7,25 +7,29 @@
         WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid Margin="0,0,0,-23">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="205*"/>
+                <ColumnDefinition Width="103*"/>
+            </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                
+
             </Grid.RowDefinitions>
-            
-            <Border CornerRadius="10" Grid.RowSpan="2">
+
+            <Border x:Name="lo" CornerRadius="10" Grid.ColumnSpan="2">
                 <Border.Background>
                     <ImageBrush ImageSource="/Vistas;component/images/prueba6.jpg" />
                 </Border.Background>
             </Border>
 
-            <StackPanel Margin="20,20,20,6" >
+            <StackPanel Margin="20,20,20,6" Grid.ColumnSpan="2" >
                 <Label Content="Login" Foreground="White" FontSize="28" HorizontalAlignment="Center"/>
                 <Separator></Separator>
-                <Label Name="lblError"  Background="Transparent"  Foreground="white" FontSize="18"/> 
+                <Label Name="lblError"  Background="Transparent"  Foreground="white" FontSize="18"/>
                 <Label Content="Usuario" FontSize="20" Foreground="white" />
                 <TextBox Name="txtUsuario" Background="Transparent"  Foreground="white" FontSize="18"/>
                 <Label Content="Contraseña" FontSize="20" Foreground="white" />
-                
-                <PasswordBox Name="txtContraseña" Background="Transparent"   Foreground="white" FontSize="18"/>
+
+                <PasswordBox Name="pwbContraseña" Background="Transparent"   Foreground="white" FontSize="18"/>
                 <Border >
                     <StackPanel Margin="10" >
                         <Button Name="btnEntrar" BorderBrush="#3C74B5" Content="Entrar" Margin="60 10" Background="Transparent" Foreground="white" FontSize="18" Click="btnEntrar_Click" />
@@ -36,11 +40,11 @@
 
 
 
-              
+
             </StackPanel>
-          
+
 
         </Grid>
-        
+
     </Grid>
 </Window>
