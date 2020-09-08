@@ -37,12 +37,13 @@
             <DataGrid Name="dgPelicula" Opacity="0.5" Foreground="White" Height="198" Background="Black" Margin="34,0,38,0" SelectionChanged="DgPelicula_SelectionChanged"/>
             <Grid Height="215">
                 <Label Content="Titulo" FontSize="20" Foreground="White" HorizontalAlignment="Left" Margin="270,49,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.695,-1.534"/>
-                <TextBox HorizontalAlignment="Left" Height="22" Margin="419,62,0,0" TextWrapping="Wrap"  Background="Transparent" VerticalAlignment="Top" Width="120" Name="txtTitulo"/>
+                <TextBox HorizontalAlignment="Left" Height="22" Margin="419,62,0,0" TextWrapping="Wrap"  Background="Transparent" VerticalAlignment="Top" Width="120" Name="txtTitulo" Foreground="White"/>
                 <Label Content="Duracion" FontSize="20" Foreground="White" HorizontalAlignment="Left" Margin="270,90,0,0" VerticalAlignment="Top"/>
-                <TextBox HorizontalAlignment="Left" Height="22" Background="Transparent" Margin="419,103,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Name="txtDuracion"/>
+                <TextBox HorizontalAlignment="Left" Height="22" Background="Transparent" Margin="419,103,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Name="txtDuracion" Foreground="White"/>
                 <Label Content="Genero" FontSize="20" Foreground="White" HorizontalAlignment="Left" Margin="270,135,0,0" VerticalAlignment="Top"/>
                 <Label Content="Clasificacion" FontSize="20" Foreground="White" HorizontalAlignment="Left" Margin="270,172,0,0" VerticalAlignment="Top"/>
-
+                <TextBox HorizontalAlignment="Left" Height="22" Background="Transparent" Margin="419,150,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Name="txtGenero" Foreground="White"/>
+                <TextBox HorizontalAlignment="Left" Height="22" Background="Transparent" Margin="419,183,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Name="txtClas" Foreground="White" RenderTransformOrigin="0.542,1.076"/>
             </Grid>
 
 
