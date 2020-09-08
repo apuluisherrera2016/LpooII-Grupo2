@@ -22,5 +22,19 @@ namespace Vistas
         {
             InitializeComponent();
         }
-    }
+
+		private void MPeli_Click(object sender, RoutedEventArgs e)
+		{
+			Pelicula wPelicula = new Pelicula();
+			wPelicula.Show();
+			this.Close();
+		}
+
+		private void MButaca_Click(object sender, RoutedEventArgs e)
+		{
+			MenuButaca wButaca = new MenuButaca();
+			wButaca.Show();
+			this.Close();
+		}
+	}
 }

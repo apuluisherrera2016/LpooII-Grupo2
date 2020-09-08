@@ -46,5 +46,12 @@ namespace Vistas
 
             
         }
-    }
+
+		private void MAtras_Click(object sender, RoutedEventArgs e)
+		{
+			MenuPrincipal mMain = new MenuPrincipal();
+			mMain.Show();
+			this.Close();
+		}
+	}
 }

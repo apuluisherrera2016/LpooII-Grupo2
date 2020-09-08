@@ -32,15 +32,15 @@
                 <Image   Source="images/pruebaaa.png" Margin="24,10,33,10" Stretch="Fill"/>
                 <Menu Grid.Column="1" Foreground="White" Background="Transparent" x:Name="menu1" Margin="0,28,10,24">
 
-                    <MenuItem Header="Usuario" Margin="10 " FontSize="20" Click="MenuItem_Click_1" />
-                    <MenuItem Header="Pelicula" Margin="10" FontSize="20" />
+                    <MenuItem Header="Usuario" Margin="10 " FontSize="20"  />
+                    <MenuItem Header="Pelicula" Margin="10" FontSize="20" Name="vPeli" Click="VPeli_Click" />
                     <MenuItem Header="Butaca" Margin="10" FontSize="20" />
-                    <MenuItem Header="Proyecciones" Margin="10" FontSize="20" Click="MenuItem_Click" />
+                    <MenuItem Header="Proyecciones" Margin="10" FontSize="20" Name="bProyeccns" Click="BProyeccns_Click"  />
                 </Menu>
 
             </Grid>
 
-            <Grid Background="Black" Opacity="0.5"  Width="600" Height="380" Margin="80,0">
+            <Grid Background="Black" Opacity="0.5" Height="380" Margin="80,0,139,0">
 
 
                 <Grid   Margin="0,0,0,0">
@@ -106,7 +106,7 @@
                         <Label Content="Ocupado" Foreground="White" Height="28" Name="label3" />
                         <Rectangle Height="28" Name="rectangle3" Stroke="Black" Width="36" Fill="Red" />
                     </StackPanel>
-                   
+
                 </Grid>
 
 

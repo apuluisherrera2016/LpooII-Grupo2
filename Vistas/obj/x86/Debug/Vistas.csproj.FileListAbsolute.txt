@@ -126,7 +126,6 @@ C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\MenuPrincipal.g.c
 C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\MenuProyecciones.g.cs
 C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\menuVendedor.g.cs
 C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\MenuUsuario.g.cs
-C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\prueba.g.cs
 C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\Window1.g.cs
 C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\App.g.cs
 C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\Vistas_MarkupCompile.cache
@@ -135,7 +134,6 @@ C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\Butaca.baml
 C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\MenuButaca.baml
 C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\MenuProyecciones.baml
 C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\menuVendedor.baml
-C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\prueba.baml
 C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\Vistas.g.resources
 C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
 C:\Users\RENE\Documents\LpooII-Grupo2-TP1\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.cache

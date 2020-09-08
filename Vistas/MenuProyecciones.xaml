@@ -24,9 +24,9 @@
                 <Image   Source="images/pruebaaa.png" Margin="24,10,33,10" Stretch="Fill"/>
                 <Menu Grid.Column="1" Foreground="White" Background="Transparent" x:Name="menu1" Margin="0,28,10,24">
 
-                    <MenuItem Header="Usuario" Margin="10 " FontSize="20" />
-                    <MenuItem Header="Pelicula" Margin="10" FontSize="20" />
-                    <MenuItem Header="Butaca" Margin="10" FontSize="20" />
+                    <MenuItem Header="Usuario" Margin="10 " FontSize="20" Name="mUser" />
+                    <MenuItem Header="Pelicula" Margin="10" FontSize="20" Name="mPeli" Click="MPeli_Click"  />
+                    <MenuItem Header="Butaca" Margin="10" FontSize="20" Name="mButaca" Click="MButaca_Click" />
                     <MenuItem Header="Proyecciones" Margin="10" FontSize="20" />
                 </Menu>
 

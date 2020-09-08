@@ -65,5 +65,19 @@ namespace Vistas
             this.Close();
 
         }
-    }
+
+		private void BProyeccns_Click(object sender, RoutedEventArgs e)
+		{
+			MenuProyecciones wProyecciones = new MenuProyecciones();
+			wProyecciones.Show();
+			this.Close();
+		}
+
+		private void VPeli_Click(object sender, RoutedEventArgs e)
+		{
+			Pelicula wPelicula = new Pelicula();
+			wPelicula.Show();
+			this.Close();
+		}
+	}
 }
