@@ -26,3 +26,5 @@ ClasesBase/bin/Debug/ClasesBase.pdb
 *.ide
 *.ide-shm
 *.ide-wal
+/ClasesBase/obj/Debug
+/.vs/LPOOII_GRUPO02/v15/.suo

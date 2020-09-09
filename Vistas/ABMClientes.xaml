@@ -8,7 +8,7 @@
                 <StackPanel.Background>
                     <ImageBrush ImageSource="/Vistas;component/Images/descarga%20%282%29.jpg" />
                 </StackPanel.Background>
-                <TextBlock Height="23" Name="textBlock1" Text="CLIENTE" TextAlignment="Center" FontWeight="Bold" FontSize="20" FontFamily="Eras ITC" FontStyle="Normal" />
+                <TextBlock Height="23" Name="textBlock1" Text="CLIENTES" TextAlignment="Center" FontWeight="Bold" FontSize="20" FontFamily="Eras ITC" FontStyle="Normal" />
                 <Label Content="DNI" Height="28" Name="label1" Width="271" FontWeight="Bold" Foreground="Black" />
                 <TextBox Height="23" Name="txtDNI" Width="246" />
                 <Label Content="NOMBRE" Height="28" Name="label2" Width="271" FontWeight="Bold" />

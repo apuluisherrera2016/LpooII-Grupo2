@@ -43,7 +43,7 @@ namespace Vistas
                     "\n TELEFONO: " +oCliente.Cli_Telefono +
                     "\n EMAIL: " + oCliente.Cli_Email);
 
-                LimpiarCampoCliente();
+                LimpiarCampoCliente();   //llamammos a la funcion limpiarCampoCliente
 
             }
         }
